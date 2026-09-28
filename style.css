@@ -1,0 +1,26 @@
+:root {
+  --board: #1f2e27;
+  --ink: #f2eddb;
+  --muted: #b8c2b5;
+  --link: #9fc7e6;
+}
+
+body {
+  margin: 0;
+  background: var(--board);
+  color: var(--ink);
+  font: 17px/1.6 "Chalkboard SE", "Comic Neue", ui-rounded, system-ui, sans-serif;
+}
+
+main {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 48px 16px 64px;
+}
+
+h1 { font-size: 2.2em; margin: 0 0 0.3em; }
+h2 { font-size: 1.3em; margin-top: 2em; }
+a { color: var(--link); }
+.muted, .back { color: var(--muted); }
+.lede { font-size: 1.15em; color: var(--muted); }
+li { margin-bottom: 0.4em; }
